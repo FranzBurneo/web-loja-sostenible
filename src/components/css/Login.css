@@ -1,0 +1,49 @@
+.container{
+    margin-top: 3%;
+    padding: 1%;
+}
+
+.PageName{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2em;
+    color: #519872;
+}
+.RightSide{
+    margin: auto;
+}
+
+
+.LoginForm{
+    background-color: #2F3136;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 9%;
+    padding-bottom: 3%;
+    
+    border-radius: 10px 10px 10px 10px;
+}
+.LoginTitle{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    text-align: center;
+
+    color: #519872;
+}
+
+.loginTF{
+    width: 95% !important;
+    background-color: #fff;
+}
+
+@media (min-width: 900px) {
+
+    .RightSide{
+        width: 50%;    
+        justify-content: center;
+        height: 100%;
+    }
+}

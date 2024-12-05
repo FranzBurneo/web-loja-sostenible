@@ -1,0 +1,28 @@
+
+.primary-container{
+    text-align: left;
+    float: left;
+    width: 70%;
+    padding-right: 10px;
+}
+
+.aside{
+    float: right;
+    width: 30%;
+    padding-left: 30px;
+}
+
+.objs{
+    padding-top: 40px;
+    padding-left: 25px;
+}
+
+
+.title-sidebard{
+    border-bottom: solid 3px #00adef;
+    
+}
+
+.title-h4{
+    margin-bottom: 5px;
+}

@@ -1,0 +1,65 @@
+.single-post .mainImage {
+   max-height: 300px !important;
+}
+
+.single-post img,
+.single-post svg,
+.single-post video,
+.single-post canvas,
+.single-post audio,
+.single-post iframe,
+.single-post embed,
+.single-post object {
+   display: inline !important;
+   max-width: 1000px !important;
+}
+
+.single-post blockquote,
+.single-post dl,
+.single-post dd,
+.single-post h1,
+.single-post h2,
+.single-post h3,
+.single-post h4,
+.single-post h5,
+.single-post h6,
+.single-post hr,
+.single-post figure,
+.single-post p,
+.single-post pre {
+   margin: 16px 0 !important;
+}
+
+@media (max-width: 1399px) {
+   .single-post .mainImage {
+      max-height: 250px !important;
+   }
+
+   .single-post img,
+   .single-post svg,
+   .single-post video,
+   .single-post canvas,
+   .single-post audio,
+   .single-post iframe,
+   .single-post embed,
+   .single-post object {
+      max-width: 700px !important;
+   }
+}
+
+@media (max-width: 999px) {
+   .single-post .mainImage {
+      max-height: 200px !important;
+   }
+
+   .single-post img,
+   .single-post svg,
+   .single-post video,
+   .single-post canvas,
+   .single-post audio,
+   .single-post iframe,
+   .single-post embed,
+   .single-post object {
+      max-width: 500px !important;
+   }
+}

@@ -1,0 +1,31 @@
+.labelPostCard{
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 0.2rem 1rem;
+    border-radius: 40px;
+    text-align: center;
+}
+
+/* Media query para dispositivos móviles */
+@media only screen and (max-width: 800px) {
+    .labelPostCard {
+        font-size: 0.8rem; /* Tamaño de letra reducido para dispositivos móviles */
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .labelPostCard {
+        font-size: 0.5rem; /* Tamaño de letra reducido para dispositivos móviles */
+    }
+}
+
+.userInfo{
+    display: flex; 
+    align-items: center;
+    cursor: pointer;
+}
+
+.userName:hover{
+    text-decoration: underline;
+}

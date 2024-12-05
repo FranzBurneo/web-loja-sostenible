@@ -1,0 +1,51 @@
+.container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+  
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  transform: translateZ(50px) scale(1.0);
+  transform-origin: center center;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  
+}
+  
+/* Do an horizontal flip awhen you move the mouse over the flip box container */
+.flip-card-inner:hover {
+  transform: rotateY(180deg);
+}
+  
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+  
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  color: black;
+}
+  
+/* Style the back side */
+.flip-card-back {
+  transform: rotateY(180deg);  
+}
+
+/* Alinear el contenido del back */
+.content-card-back {
+  height: 29rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.ods-cards img{
+  width: 25rem;
+  height: 25rem;
+}

@@ -1,0 +1,39 @@
+.commentContainer{
+    background-color: #ffffff;
+    height: 100%;
+    /* opacity: 1; */
+    background: rgb(255, 255, 255);
+    color: rgb(52, 71, 103);
+    border-radius: 0.5rem;
+    box-shadow: 0 8px 24px hsla(210,8%,62%,.2);
+    padding: 2em;
+    margin-bottom: 0.5em;
+}
+.txtArea{
+    width: 100%;
+    margin-top: 5px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 12px;
+    border-radius: 12px 12px 0 12px;
+    color: #1C2025;
+    background: #ffffff;
+    border: 1px solid #DAE2ED;
+    box-shadow:  0px 2px 2px #F3F6F9;
+
+    &:hover{
+        border-color: #3399FF;
+    }
+    &:focus{
+        outline: 0;
+        border-color: #3399FF;
+        box-shadow: 0 0 0 3px #b6daff;
+    }
+
+    /* firefox */
+    &:focus-visible{
+        outline: 0;
+    }
+}
