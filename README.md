@@ -86,13 +86,20 @@ The web frontend provides the following functionalities:
 ## Screenshots
 
 ### User Registration
-<img src="" alt="User Registration" height="200">
+![image](https://github.com/user-attachments/assets/3bdbf5aa-912e-4531-b1a7-726cd84a9bab)
+
 
 ### Publications Management
-<img src="" alt="Publications Management" height="200">
+![image](https://github.com/user-attachments/assets/665da0e9-747f-4d3c-9c88-c25a785d3427)
+![image](https://github.com/user-attachments/assets/225f5a1b-b757-46d2-8c73-01e1452b6e6c)
+![image](https://github.com/user-attachments/assets/f98797ed-7016-445d-8407-8376c3e43298)
 
 ### Survey Management
-<img src="" alt="Survey Management" height="200">
+![image](https://github.com/user-attachments/assets/11404faf-e506-42d5-bfd2-f54573d0ceea)
+![image](https://github.com/user-attachments/assets/e337c825-66b2-4427-9083-339a7d3dbacf)
+
 
 ### Informative Section
-<img src="" alt="Informative Section" height="200">
+![image](https://github.com/user-attachments/assets/a87cf35a-1157-4e1c-9897-ed6a8dd8d651)
+![image](https://github.com/user-attachments/assets/66ed15de-b226-491b-9305-f1b22f780dfa)
+
